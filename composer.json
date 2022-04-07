@@ -17,9 +17,16 @@
       "email": "patrick@maatwebsite.nl"
     }
   ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/kobami/PHPExcel.git"
+    }
+  ],
+  "@comment": "phpoffice/phpexcel: ^1.8.1",
   "require": {
     "php": ">=5.5",
-    "phpoffice/phpexcel": "^1.8.1",
+    "phpoffice/phpexcel": "dev-qds",
     "illuminate/support": "5.8.*|^6.0|^7.0|^8.0|^9.0",
     "jeremeamia/superclosure": "^2.3",
     "nesbot/carbon": "~2.0",
