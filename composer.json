@@ -38,6 +38,9 @@
     "illuminate/queue": "^5.0"
   },
   "autoload": {
+    "files": [
+      "helpers-laravel-5-8.php"
+    ],
     "classmap": [
       "src/Maatwebsite/Excel"
     ],
